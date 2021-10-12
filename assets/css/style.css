@@ -267,6 +267,20 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   color: #fff;
 }
+#hero .social-links {
+  margin-top: 30px;
+}
+#hero .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+#hero .social-links a:hover {
+  color: #0563bb;
+}
 #hero p {
   color: #fff;
   margin-bottom: 50px;
@@ -411,7 +425,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -441,7 +455,34 @@ section {
   transition: 0.9s;
   background-color: #0563bb;
 }
-
+.skillls h6	 {
+  font-size: 18px;
+  display: inline-block;
+  background: #0563bb;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+.skills.resume-item {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+color: #45505b;}
+.skills.resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
